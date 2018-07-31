@@ -1,0 +1,13 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Hello world!");
+		
+		Rectangle rect1 = new Rectangle(2,3);
+		System.out.println("Area: " + rect1.getArea());
+		System.out.println("Area: " + rect1.getPerimeter());
+	}
+
+}

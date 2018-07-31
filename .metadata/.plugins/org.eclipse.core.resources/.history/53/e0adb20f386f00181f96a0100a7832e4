@@ -1,0 +1,13 @@
+
+public class Rectangle {
+	
+	//adding properties for the Rectangle class
+	public int width;
+	public int height; 
+	
+	public int getArea() {
+		int area = height * width;
+		return area;
+	}
+	
+}

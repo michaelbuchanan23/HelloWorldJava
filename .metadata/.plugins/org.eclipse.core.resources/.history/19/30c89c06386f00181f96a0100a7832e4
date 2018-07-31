@@ -1,0 +1,8 @@
+
+public class Rectangle {
+	
+	//adding properties for the Rectangle class
+	public int Width;
+	public int Height; 
+	
+}

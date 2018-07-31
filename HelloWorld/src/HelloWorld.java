@@ -1,0 +1,37 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Hello world!");
+		
+		Rectangle rect1 = new Rectangle();
+		Rectangle rect2 = new Rectangle (3,5);
+		
+		int area = rect2.getArea();
+		int perimeter = rect2.getPerimeter();
+		
+		System.out.println("Area: " + rect2.getArea());
+		System.out.println("Area: " + perimeter);
+		
+		String templateArea = "Area is %s";
+		String templatePerimeter = "Perimeter is %s";
+		System.out.println(String.format(templateArea, area));
+		System.out.println(String.format(templatePerimeter, perimeter));
+		System.out.println(String.format("Perimeter is for sure %s", perimeter));
+		
+		
+		//equivalent of foreach in java
+		int[] ints = {1,2,3,4,5};
+		int total = 0;
+		for (int i: ints) {
+			total += i;
+		}
+		System.out.println("Total is " + total);
+		
+		Square square = new Square(5);
+		int squareArea = square.getArea();
+		int squarePerimeter = square.getPerimeter();
+		System.out.println("Area is " + squareArea + ", perimeter is " + squarePerimeter);
+	}
+}
